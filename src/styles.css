@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: black;
+  font-family: Verdana;
+  font-size: 16px;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 400px;
+  height: 80vh;
+  background-color: blueviolet;
+  border-radius: 20px;
+  box-shadow: aqua;
+}
+
+.upper-data{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/*<!-- for image only-->*/
+.upper-data img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.weather-data{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location{
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+
+.temperature{
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 900;
+}
