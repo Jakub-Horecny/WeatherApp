@@ -1,0 +1,9 @@
+<div class="box">
+  <form name="search" #form="ngForm" (submit)="onSubmit()">
+    <input type="text" class="input" name="txt"
+           onmouseout="this.value = ''; this.blur(); placeholder=''"
+           onmouseover ="placeholder ='Search...' "
+           [(ngModel)]="cityName"
+    >
+  </form>
+</div>

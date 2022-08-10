@@ -4,11 +4,8 @@
 
 export const environment = {
   production: false,
-  weatherApiBaseUrl: 'https://open-weather13.p.rapidapi.com/city/landon',
-  XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
-  XRapidAPIHostHeaderValue: 'open-weather13.p.rapidapi.com',
-  XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
-  XRapidAPIKeyHeaderValue: '2c4eb8e6ccmsh9b3d75f919929cbp120ee0jsnb4ebd2034077',
+  weatherApiBaseUrl: 'https://api.openweathermap.org/data/2.5/weather',
+  weatherApiKey: 'e327605022254185d474c8fc527e7810'
 };
 
 /*
